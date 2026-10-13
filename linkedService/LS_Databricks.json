@@ -12,7 +12,8 @@
 					"type": "LinkedServiceReference"
 				},
 				"secretName": "adb-token"
-			}
+			},
+			"existingClusterId": "1013-123149-x78q1cpu"
 		}
 	}
 }
