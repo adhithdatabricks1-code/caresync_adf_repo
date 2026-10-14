@@ -307,7 +307,10 @@
 							"userProperties": [],
 							"typeProperties": {
 								"variableName": "watermark_value",
-								"value": ""
+								"value": {
+									"value": "@activity('read watermark').output",
+									"type": "Expression"
+								}
 							}
 						}
 					]
