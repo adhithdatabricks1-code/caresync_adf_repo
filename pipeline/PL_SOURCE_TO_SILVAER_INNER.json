@@ -292,6 +292,8 @@
 						{
 							"name": "store watermark value",
 							"type": "SetVariable",
+							"state": "Inactive",
+							"onInactiveMarkAs": "Succeeded",
 							"dependsOn": [
 								{
 									"activity": "read watermark",
